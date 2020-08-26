@@ -4,6 +4,11 @@ class Dog
     @name = dog_name
   end 
   
-  fido = Dog.new("Fido")
-  fido.name
+  def name
+    @name = name
+  end 
+  
+  def breed 
+    @breed = breed 
+  end 
 end 
